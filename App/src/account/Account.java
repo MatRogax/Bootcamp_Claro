@@ -10,10 +10,10 @@ public class Account {
     public BigDecimal balance;
 
     public Account(int number,String agency,String name,BigDecimal balance){
-        this.number=number;
-        this.agency=agency;
-        this.name=name;
-        this.balance=balance;
+        this.number = number;
+        this.agency = agency;
+        this.name = name;
+        this.balance = balance;
     }
 
     public void printAccountInfo() {
